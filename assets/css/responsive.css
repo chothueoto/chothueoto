@@ -1,0 +1,243 @@
+@media (max-width: 1366px) {
+    .btnleft {
+        margin: auto;
+        height: 49px;
+        line-height: 49px;
+        text-align: center;
+    }
+    .content__right-link {
+        line-height: 37px;
+    }
+}
+
+
+/* PC */
+
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none;
+    }
+    .product__text {
+        text-align: left !important;
+    }
+}
+
+
+/* MOBILE - TABLET */
+
+@media (max-width: 1029.33px) {
+    .hide-on-mb-tl {
+        display: none;
+    }
+    .header {
+        padding: 0;
+        background-color: #ec000c;
+    }
+    .content {
+        overflow: hidden;
+    }
+    .product__group {
+        margin-bottom: 10px;
+    }
+    .content__left-link {
+        line-height: inherit;
+        text-align: center;
+        display: block;
+    }
+    .btnleft {
+        margin: auto;
+        height: 49px;
+        line-height: 49px;
+    }
+    .btn {
+        margin: 2px auto;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .product__group {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    /* .btn {
+        margin-bottom: 5px;
+    } */
+    .product__img img {
+        width: 270px;
+        height: auto;
+    }
+    .content {
+        padding: 30px 12px;
+    }
+    .product__img {
+        margin: auto;
+    }
+    .footer__title {
+        font-size: 1.9rem;
+    }
+    .img-prd img {
+        margin: auto;
+    }
+    .product__text {
+        margin-left: 0 !important;
+    }
+    .attention__list {
+        margin-left: 0;
+    }
+    form {
+        margin-left: 0;
+    }
+    .help {
+        margin-left: 0;
+    }
+}
+
+
+/* PRODUCT 1 */
+
+.prd__cmt {
+    margin-left: inherit;
+    text-align: center;
+}
+
+.product__text {
+    margin-top: 70px;
+    margin-left: 83px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.attention__list {
+    padding: 20px 10px;
+}
+
+.nav {
+    padding: 5px 40px;
+}
+
+.help {
+    padding: 0 10px;
+}
+
+form {
+    padding: 20px 10px;
+}
+
+
+/* TABLE */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .btnleft {
+        height: 49px;
+        margin: auto;
+    }
+    .content__left-link {
+        line-height: 49px;
+    }
+    .btn {
+        display: grid !important;
+        margin: 3px auto;
+    }
+}
+
+
+/* MOBILE */
+
+@media (max-width: 739px) {
+    .hide-on-mb {
+        display: none;
+    }
+    .header {
+        padding: 0;
+    }
+    .content {
+        overflow: hidden;
+    }
+    .product__group {
+        margin-bottom: 10px;
+    }
+    .content__left-link {
+        line-height: inherit;
+        text-align: center;
+        display: block;
+    }
+    .btnleft {
+        height: auto;
+    }
+    .product__group {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .btn {
+        margin-bottom: 5px;
+    }
+    .product__img img {
+        width: 270px;
+        height: auto;
+    }
+    .content {
+        padding: 30px 12px;
+    }
+    .product__img {
+        margin: auto;
+    }
+    .made__group {
+        text-align: center;
+    }
+    .content__made {
+        margin-top: 20px;
+    }
+    .footer {
+        padding: 10px 25px;
+    }
+    .prd__cmt {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 736px) {
+    .btnleft {
+        margin: auto;
+        height: 49px;
+        line-height: 49px;
+    }
+    .btn {
+        margin: 2px auto;
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .btnleft {
+        margin: auto;
+        height: 49px;
+        line-height: 49px;
+    }
+    .btn {
+        margin: 2px auto;
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+@media (min-width: 320px) {
+    .content__made {
+        margin-top: 55px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 280px) {
+    .product__img img {
+        width: 235px;
+    }
+    .footer {
+        padding: 10px 15px;
+    }
+    .content__right {
+        margin-bottom: 65px;
+    }
+    .made__group {
+        margin-bottom: 50px;
+    }
+}

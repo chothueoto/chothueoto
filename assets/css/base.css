@@ -1,0 +1,18 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --red-color: #a52a2a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    line-height: 2rem;
+}
